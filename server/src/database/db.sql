@@ -74,7 +74,7 @@ CREATE TABLE IF NOT EXISTS alimentos.usuario(
 
 INSERT INTO  alimentos.usuario(
 	str_nombre,
-    str_password,
+    str_password
 )
 VALUES
 ('admin', 'admin23');
