@@ -4,10 +4,11 @@ import Sequelize from "sequelize";
 
 
 // Configura con tus credenciales propios
-// export const sequelize = new Sequelize("alimentos", "postgres", "admin", {
-//   host: "localhost",
-//   logging: false,
-//   dialect: "postgres",
-// });
+export const sequelize = new Sequelize("alimentos", "postgres", "admin", {
+  host: "localhost",
+  logging: false,
+  dialect: "postgres",
+});
+
 
 
