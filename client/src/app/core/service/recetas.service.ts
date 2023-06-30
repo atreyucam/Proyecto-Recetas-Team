@@ -55,4 +55,9 @@ export class RecetasService {
     );
 
   }
+  crearReceta(receta: any) {
+    return this.http.post<any>(this.URL_datosRecetas, receta, {
+      withCredentials: true,
+    });
+  }
 }
