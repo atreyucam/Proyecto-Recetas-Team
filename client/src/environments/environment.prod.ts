@@ -15,7 +15,8 @@ export const environment = {
   //urlApi: 'https://localhost:8001/',               //Local de Daniel
   //urlApi: 'http://localhost:4400/', //Local de Homero
   // urlApi: 'https://localhost:8001/',               //Local de Daniel
-    urlApi: 'proyecto-recetas-team-production.up.railway.app'
+    urlApi: 'https://proyecto-recetas-team-production.up.railway.app/'
   // urlApi: 'https://localhost:8000/',               //Local de Homero
   // CodigoSistemaOneDrive: 'ARCHPOLI',
 };
+
